@@ -4,6 +4,9 @@
 /* css variable */
 @import url(partials/variables.css);
 
+/* import global styling */ 
+@import url(./partials/global.css);
+
 /* start navigation */
 
     
