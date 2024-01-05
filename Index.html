@@ -66,8 +66,8 @@
                             <h4 class="title-text text-uppercase">Full-Stack Developer</h4>
                             <div class="site-buttons">
                                 <div class="d-flex flex-row flex-wrap">
-                                    <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire Me</button>
-                                    <button type="button" class="btn button secondary-button text-uppercase">Get Resume</button>
+                                    <button id="linkedIn" type="button" class="btn button primary-button mr-4 text-uppercase" onclick="visitLinkedIn()"> <a >Hire Me</button>
+                                    <button id="resume" type="button" class="btn button secondary-button text-uppercase" onclick="openResume()">Get Resume</button>
                                 </div>
                             </div>
                         </div>
@@ -85,6 +85,19 @@
      </main>
     <!-- End of Main -->
 
+    <!-- Strart of Script -->
+
+    <script>
+      function visitLinkedIn(){
+        window.open("https://www.linkedin.com/in/avisebron/", "_blank"); 
+           }
+
+      function openResume(){
+        window.open('files/SoftwareResume.pdf');
+
+        }
+    </script>
+
 
 
     <!-- Jquery js file -->
@@ -93,5 +106,7 @@
 
     <!-- Bootstrap js file -->
     <script src="/js/bootstrap.min.js"></script>
+
+    <!-- End of Script -->
 </body>
 </html>

@@ -4,8 +4,12 @@
 /* css variable */
 @import url(partials/variables.css);
 
+/* import global styling */ 
+@import url(./partials/global.css);
+
 /* start navigation */
 
+    
     .header .main-menu .navbar .navbar-brand{
         padding: 0 2rem 0 2rem;
     }
@@ -37,6 +41,9 @@
 
 /* Banner Area */ 
 
+body {
+    background: url(/img/home-banner.png) no-repeat 0% 50%;
+}
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
